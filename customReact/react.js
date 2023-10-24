@@ -16,7 +16,7 @@ function customRender(reactElement, mainContainer) {
   }
   mainContainer.appendChild(domElement);
 }
-
+console.log("dom", domElement);
 const reactElement = {
   type: "a",
   props: {
